@@ -10,11 +10,34 @@
 
 ---
 
+## Current Status
+
+**Active development** — Sprint 3 complete.
+
+Next milestone (Sprint 4):
+- Authentication
+- User management
+- Resume history
+
+---
+
 ## Overview
 
 CareerPilot AI helps students strengthen their job readiness through AI-driven resume analysis, project evaluation, and personalized career planning. It's built as a structured, sprint-based engineering project rather than a single-file demo — with a modular architecture, test coverage, and clean separation between services, models, and views.
 
 The long-term goal is a single platform where a student can upload a resume, get an honest ATS-style breakdown, track project quality, and generate a roadmap toward a specific role.
+
+---
+
+## Why CareerPilot AI?
+
+Most student career tools solve a single problem in isolation. CareerPilot AI aims to unify the entire career preparation journey into one intelligent platform—from resume optimization and project evaluation to interview preparation and personalized career roadmaps.
+
+The project is built with a production-oriented mindset, emphasizing modular architecture, scalability, maintainability, and iterative development through structured engineering sprints.
+
+## Demo
+
+> Demo GIF and screenshots will be added after Sprint 4 (Dashboard, Resume Upload, AI Analysis, PDF Export).
 
 ---
 
@@ -181,6 +204,23 @@ Detailed docs live in `docs/`:
 
 ---
 
+## Design Principles
+
+- Modular architecture
+- Separation of concerns
+- Service-oriented design
+- Testability
+- Scalable components
+- Production-oriented development
+
+---
+
+## Future Vision
+
+CareerPilot AI is being built toward a complete AI career operating system where students can build resumes, improve projects, practice interviews, track career growth, generate learning roadmaps, and receive AI-powered career guidance — developed incrementally through structured engineering sprints for maintainability and production readiness.
+
+---
+
 ## Contributing
 
 Contributions and suggestions are welcome.
@@ -191,6 +231,19 @@ Contributions and suggestions are welcome.
 4. Open a pull request
 
 ---
+
+## Acknowledgements
+
+This project leverages several excellent open-source technologies:
+
+- Streamlit
+- Google Gemini API
+- PyMuPDF
+- python-docx
+- ReportLab
+- Pytest
+
+Special thanks to the open-source community for providing the tools that make this project possible.
 
 ## License
 
