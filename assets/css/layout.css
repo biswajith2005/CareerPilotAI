@@ -1,0 +1,73 @@
+/* ==========================================
+   Layout
+========================================== */
+
+/* Main App */
+.main .block-container {
+    max-width: 1400px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+/* Sidebar */
+[data-testid="stSidebar"] {
+    background: var(--surface);
+    border-right: 1px solid var(--border);
+}
+
+[data-testid="stSidebar"] > div:first-child {
+    padding: 1.5rem 1rem;
+}
+
+/* Page Title */
+h1 {
+    font-family: "Inter", sans-serif;
+    font-size: 2.6rem;
+    font-weight: 700;
+    color: var(--text);
+    margin-bottom: 0.25rem;
+}
+
+h2 {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    color: var(--text);
+}
+
+h3 {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    color: var(--text);
+}
+
+/* Body Text */
+
+html,
+body,
+[class*="css"] {
+    font-family: "Inter", sans-serif;
+}
+
+/* Divider */
+
+hr {
+    border: none;
+    border-top: 1px solid var(--border);
+    margin: 1rem 0;
+}
+
+/* Remove Streamlit Menu */
+
+/* #MainMenu {
+    visibility: hidden;
+}
+
+footer {
+    visibility: hidden;
+}
+
+header {
+    visibility: hidden;
+} */

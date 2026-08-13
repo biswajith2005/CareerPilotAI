@@ -1,0 +1,148 @@
+/* ==========================================
+   Components
+========================================== */
+
+/* Buttons */
+
+.stButton > button {
+
+    background: var(--primary);
+
+    color: white;
+
+    border: none;
+
+    border-radius: var(--radius-md);
+
+    padding: 0.7rem 1.3rem;
+
+    font-weight: 600;
+
+    transition: .2s;
+}
+
+.stButton > button:hover {
+
+    background: var(--primary-dark);
+
+    transform: translateY(-1px);
+
+    box-shadow: var(--shadow-md);
+
+}
+
+/* Inputs */
+
+.stTextInput input,
+.stTextArea textarea,
+.stSelectbox {
+
+    border-radius: var(--radius-md);
+
+}
+
+/* Metric Cards */
+
+[data-testid="metric-container"]{
+
+    background:white;
+
+    border:1px solid var(--border);
+
+    border-radius:var(--radius-lg);
+
+    padding:18px;
+
+    box-shadow:var(--shadow-sm);
+
+}
+
+/* Progress */
+
+.stProgress > div > div{
+
+    background:var(--primary);
+
+}
+/* ==========================================
+   Sidebar
+========================================== */
+
+.sidebar-brand {
+    padding: 0.25rem 0 0.5rem 0;
+}
+
+.sidebar-brand-name {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--text);
+}
+
+.sidebar-brand-subtitle {
+    margin-top: 0.3rem;
+    font-size: 0.78rem;
+    color: var(--text-secondary);
+}
+
+.sidebar-section-title {
+    margin-bottom: 0.65rem;
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+}
+
+.sidebar-score {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+.sidebar-score-value {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--text);
+}
+
+.sidebar-score-delta {
+    padding: 0.2rem 0.45rem;
+    border-radius: 999px;
+    background: var(--primary-light);
+    color: var(--primary);
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+/* Sidebar navigation buttons */
+
+[data-testid="stSidebar"] .stButton > button {
+    justify-content: flex-start;
+    border: 1px solid transparent;
+    box-shadow: none;
+    font-weight: 500;
+    margin-bottom: 0.2rem;
+}
+
+/* Keep the sidebar buttons visually compact */
+
+[data-testid="stSidebar"] .stButton > button[kind="secondary"] {
+    background: transparent;
+    color: var(--text-secondary);
+}
+
+/* Hover */
+
+[data-testid="stSidebar"] .stButton > button[kind="secondary"]:hover {
+    background: var(--surface-2);
+    color: var(--text);
+    border-color: transparent;
+}
+
+/* Selected navigation item */
+
+[data-testid="stSidebar"] .stButton > button[kind="primary"] {
+    background: var(--primary-light);
+    color: var(--primary);
+    border-color: transparent;
+}

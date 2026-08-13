@@ -1,0 +1,18 @@
+.dashboard-hero {
+    background: linear-gradient(135deg, #1e293b, #0f172a);
+    border-radius: 18px;
+    padding: 32px;
+    color: white;
+    margin-bottom: 24px;
+}
+
+.dashboard-title {
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.dashboard-subtitle {
+    font-size: 18px;
+    color: #cbd5e1;
+}
